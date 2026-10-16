@@ -1,0 +1,17 @@
+$ wget -O sample.txt https://raw.githubusercontent.com/git/git/master/README.md
+--2026-10-16 02:31:09--  https://raw.githubusercontent.com/git/git/master/README.md
+Connecting to 127.0.0.1:44971... connected.
+Proxy request sent, awaiting response... 200 OK
+Length: 3808 (3.7K) [text/plain]
+Saving to: 'sample.txt'
+
+     0K ...                                                   100%  102M=0s
+
+2026-10-16 02:31:09 (102 MB/s) - 'sample.txt' saved [3808/3808]
+
+$ ls -l sample.txt
+-rw-r--r-- 1 root root 3808 Oct 16 02:31 sample.txt
+$ head -n 3 sample.txt
+[![GitHub build status](https://github.com/git/git/workflows/CI/badge.svg)](https://github.com/git/git/actions?query=branch%3Amaster+event%3Apush)
+[![GitLab build status](https://gitlab.com/git-scm/git/badges/master/pipeline.svg)](https://gitlab.com/git-scm/git/-/pipelines?ref=master)
+

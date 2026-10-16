@@ -1,0 +1,3 @@
+$ mkdir test_dir
+$ ls -ld test_dir
+drwxr-xr-x 2 root root 4096 Oct 16 02:31 test_dir

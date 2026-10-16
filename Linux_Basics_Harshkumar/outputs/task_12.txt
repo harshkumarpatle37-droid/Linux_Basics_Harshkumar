@@ -1,0 +1,5 @@
+$ export MY_VAR="Hello, Linux!"
+$ echo $MY_VAR
+Hello, Linux!
+$ printenv MY_VAR
+Hello, Linux!

@@ -1,0 +1,6 @@
+$ tail -n 5 /etc/passwd
+nixbld29:x:30029:30000:Nix build user 29:/var/empty:/sbin/nologin
+nixbld30:x:30030:30000:Nix build user 30:/var/empty:/sbin/nologin
+nixbld31:x:30031:30000:Nix build user 31:/var/empty:/sbin/nologin
+nixbld32:x:30032:30000:Nix build user 32:/var/empty:/sbin/nologin
+claude:x:999:30001::/home/claude:/bin/bash

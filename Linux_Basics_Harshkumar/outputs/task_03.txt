@@ -1,0 +1,4 @@
+$ mv test_dir/example.txt test_dir/renamed_example.txt
+$ ls -l test_dir
+total 0
+-rw-r--r-- 1 root root 0 Oct 16 02:31 renamed_example.txt

@@ -1,0 +1,10 @@
+$ unzip test_dir.zip -d unzipped_dir
+Archive:  test_dir.zip
+   creating: unzipped_dir/test_dir/
+ extracting: unzipped_dir/test_dir/renamed_example.txt  
+$ ls -R unzipped_dir
+unzipped_dir:
+test_dir
+
+unzipped_dir/test_dir:
+renamed_example.txt
